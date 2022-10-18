@@ -1,0 +1,150 @@
+
+*{
+    background: #020412;
+    transition: all 0.3s ease-in-out;
+}
+.header{
+    
+    height:100vh;
+    background: #020412;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: 30px 0 10px;
+}
+.log{
+    margin:5px;
+    width:50px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 0px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: rgb(233, 254, 0);
+    letter-spacing: 5px;
+}
+.text-box{
+    margin-top: 15%;
+    font-size:17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.text-box h1{
+    font-size: 70px;
+    line-height: 50px;
+}
+.text-box a{
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid #fff724;
+    color: #fff724;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.text-box .btn{
+    background: #fff724;
+    color: #000;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.user-img{
+    width: 440px;
+    position: absolute;
+    right: 8%;
+    bottom: 0;
+
+}
+.auto-input{
+    font-size: 40px;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.footer{
+    padding: 50px 0;
+    background: rgb(185, 182, 182);
+    text-align: center;
+}
+.footer p{
+    line-height: 100px;
+    font-size: 15px;
+    letter-spacing: 4px;
+    
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 22px;
+    opacity: 0.75;
+}
+
+
+.social a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.3s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social :nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social :nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social :nth-child(3) a:hover  {
+    background-color: #e4405f;
+}
+.social :nth-child(4) a:hover  {
+    background-color: #cd201f;
+}
+.social :nth-child(5) a:hover  {
+    background-color: #0077B5;
+}   
